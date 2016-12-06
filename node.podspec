@@ -8,4 +8,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/instacrate/node.git', :tag => '1.0.1' }
   spec.source_files = 'Sources/Node/**/*.swift'
   spec.platform     = :ios, '9.0'
+
+  spec.dependency 'path-indexable'
+  spec.dependency 'Polymorphic'
 end
